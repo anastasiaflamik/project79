@@ -1,0 +1,50 @@
+    <html>
+    <head>
+    <title>FAMILY BOOK</title>
+    <body>
+        <h1>FAMILY BOOK</h1>
+    <img src="Screen Shot 2021-05-07 at 8.32.26 PM" style="width: 30%;" id="family_member_image">
+    <h4 id="family_member_name"></h4>
+    <button onclick="update();">
+        <button type="button" onclick="nextslide()"></button>
+        <h1 id="names"></h1> 
+    </div>
+    </button>
+    </body>
+    </head>
+    </html>
+
+    <script>
+   
+
+var images =["Screen Shot 2021-05-07 at 9.09.48 PM.png","Screen Shot 2021-05-07 at 10.39.12 PM.png","Screen Shot 2021-05-07 at 11.10.12 PM.png","IMG_0755.jpg"];
+
+
+
+
+var names = ["Family Book", "Anastasia Flamik","Tatiana Flamik", "George Flamik", "Dina Flamik"];
+
+var i=0;
+function nextslide(){
+  document.getElementById("album").src=images[i];
+  i++;
+}
+
+
+var i = 0;
+function update()
+{
+    i++;
+    var numbers_of_family_member_in_array = 4
+    if(i > numbers_of_family_member_in_array );
+}
+i = 0;
+{
+    var updateImage = images[i];
+    var updateName = names[i];
+    document.getElementById("family_member_image").src = updateImage;
+    document.getElementById("family_member_name").innerHTML = updateName;`
+}
+
+
+</script>
